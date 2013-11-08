@@ -1,0 +1,5 @@
+<%= form_for(@todo) do |f| %>
+  <%= f.text_area :content, style: "width: 480px; height: 100px;" %>
+  <%= f.submit class: 'btn btn-primary' %>
+  <%= link_to("View all todos", root_path, class: "btn pull-right") unless @todo.new_record? %>
+<% end %>
