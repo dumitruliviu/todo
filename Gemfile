@@ -36,6 +36,9 @@ end
 gem 'RedCloth'
 gem 'font-awesome-rails', '3.2.1.3'
 
+# heroku
+gem 'rails_12factor', group: :production
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
